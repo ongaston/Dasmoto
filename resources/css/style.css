@@ -4,6 +4,11 @@
     font-weight: bold;
     color: khaki;
     text-align: center;
-    background-image: url('../images/pattern.jpeg')
+    background-image: url('../images/pattern.jpeg');
+    max-height: 150px;
+}
+
+#title {
+    font-size: 100px;
 }
 
