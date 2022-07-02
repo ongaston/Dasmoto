@@ -1,0 +1,34 @@
+.container {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url('../images/pattern.jpeg');
+    padding-top: 50px;
+}
+
+#title {
+    font-size: 100px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+nav {
+    background-color: cornflowerblue;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: Helvetica;
+    color: antiquewhite;
+    text-decoration: antiquewhite
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: antiquewhite;
+}
