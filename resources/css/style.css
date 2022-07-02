@@ -5,11 +5,13 @@
     color: khaki;
     text-align: center;
     background-image: url('../images/pattern.jpeg');
-    max-height: 150px;
+    padding-top: 50px;
 }
 
 #title {
     font-size: 100px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 #brush-title {
@@ -43,4 +45,23 @@
 
 #paint-title {
     background-color: skyblue;
+}
+
+nav {
+    background-color: cornflowerblue;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: Helvetica;
+    color: antiquewhite;
+    text-decoration: antiquewhite
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: antiquewhite;
 }
