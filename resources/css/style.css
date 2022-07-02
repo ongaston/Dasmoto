@@ -12,3 +12,27 @@
     font-size: 100px;
 }
 
+#brush-title {
+    background-color: mediumspringgreen;
+}
+
+.product-title {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.product-subtitle {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.product-description {
+    font-family: Helvetica;
+}
+
+.price {
+    font-weight: bold;
+    color: blue;
+}
