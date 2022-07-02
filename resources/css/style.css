@@ -14,6 +14,47 @@
     display: inline-block;
 }
 
+nav {
+    background-color: cornflowerblue;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-bar {
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: Helvetica;
+    color: antiquewhite;
+    text-decoration: antiquewhite
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: antiquewhite;
+}
+
+footer {
+    background-color: cornflowerblue;
+}
+
+#footer {
+    font-family: Helvetica;
+    color: khaki;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.bottom-links {
+    font-family: Helvetica;
+    color: antiquewhite;
+
+}
 
 #brush-title {
     background-color: mediumspringgreen;
@@ -46,23 +87,4 @@
 
 #paint-title {
     background-color: skyblue;
-}
-
-nav {
-    background-color: cornflowerblue;
-    position: fixed;
-    width: 100%;
-}
-
-li {
-    display: inline-block;
-    padding: 0px 20px;
-    font-family: Helvetica;
-    color: antiquewhite;
-    text-decoration: antiquewhite
-}
-
-a {
-    color: antiquewhite;
-    text-decoration: antiquewhite;
 }

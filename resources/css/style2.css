@@ -33,6 +33,29 @@ a {
     text-decoration: antiquewhite;
 }
 
+footer {
+    background-color: cornflowerblue;
+}
+
+#footer {
+    font-family: Helvetica;
+    color: khaki;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.bottom-links {
+    font-family: Helvetica;
+    color: antiquewhite;
+
+}
+
 .title {
     font-family: Helvetica;
     color: khaki;
@@ -46,26 +69,4 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 75%
-}
-
-footer {
-    background-color: cornflowerblue;
-}
-
-#footer {
-    font-family: Helvetica;
-    color: khaki;
-    padding-left: 65px;
-    font-size: 20px;
-    text-align: center;
-}
-
-.footer-links {
-    list-style-type: none;
-}
-
-.bottom-links {
-    font-family: Helvetica;
-    color: antiquewhite;
-    text-align: center;
 }

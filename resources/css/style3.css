@@ -20,7 +20,7 @@ nav {
     width: 100%;
 }
 
-li {
+.nav-bar {
     display: inline-block;
     padding: 0px 20px;
     font-family: Helvetica;
@@ -31,4 +31,27 @@ li {
 a {
     color: antiquewhite;
     text-decoration: antiquewhite;
+}
+
+footer {
+    background-color: cornflowerblue;
+}
+
+#footer {
+    font-family: Helvetica;
+    color: khaki;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.bottom-links {
+    font-family: Helvetica;
+    color: antiquewhite;
+
 }
