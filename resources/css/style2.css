@@ -32,3 +32,37 @@ a {
     color: antiquewhite;
     text-decoration: antiquewhite;
 }
+
+.title {
+    font-family: Helvetica;
+    color: khaki;
+    font-size: 70px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+#main-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%
+}
+
+footer {
+    background-color: cornflowerblue;
+}
+
+#footer {
+    font-family: Helvetica;
+    color: khaki;
+    padding-left: 65px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    font-family: Helvetica;
+    color: antiquewhite;
+}
