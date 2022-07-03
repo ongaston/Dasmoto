@@ -121,3 +121,41 @@ footer {
     margin-right: auto;
     font-size: 20px;
 }
+
+.label {
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact-info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#customer-name {
+    width: 50%;
+}
+
+#customer-email {
+    width: 50%;
+}
+
+#customer-message {
+    width: 50%;
+}
+
+#submit-button {
+    font-family: Helvetica;
+    color: antiquewhite;
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+}
+
+#submit-button:hover {
+    color: khaki;
+}
