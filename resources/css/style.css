@@ -101,3 +101,15 @@ footer {
     font-family: Helvetica;
     font-size: 60px;
 }
+
+.welcome-message {
+    font-family: Helvetica;
+    color: black;
+    text-align: center;
+    background-color: darkkhaki;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
