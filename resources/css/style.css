@@ -1,8 +1,12 @@
+body {
+    background-color: #281c14;
+}
+
 .container {
     font-family: Helvetica;
     font-size: 100px;
     font-weight: bold;
-    color: khaki;
+    color: #ffebcd;
     text-align: center;
     background-image: url('../images/pattern.jpeg');
     padding-top: 50px;
@@ -15,7 +19,7 @@
 }
 
 nav {
-    background-color: cornflowerblue;
+    background-color: #14401c;
     position: fixed;
     width: 100%;
 }
@@ -43,12 +47,14 @@ a:hover {
 
 
 footer {
-    background-color: cornflowerblue;
+    background-color: #14401c;
+    padding-top: 5px;
+    margin-top: 20px;
 }
 
 #footer {
     font-family: Helvetica;
-    color: khaki;
+    color: #ffebcd;
     font-size: 20px;
     text-align: center;
 }
@@ -61,19 +67,19 @@ footer {
 
 .bottom-links {
     font-family: Helvetica;
-    color: antiquewhite;
+    color: #ffebcd;
 
 }
 
 #brush-title {
-    background-color: mediumspringgreen;
+    background-color: #f0b6a9;
 }
 
 .product-title {
     font-family: Helvetica;
     font-size: 32px;
     font-weight: bold;
-    color: white;
+    color: #ffebcd;
 }
 
 .product-subtitle {
@@ -87,15 +93,15 @@ footer {
 
 .price {
     font-weight: bold;
-    color: blue;
+    color: #14401c;
 }
 
 #frames-title {
-    background-color: lightcoral;
+    background-color: #e63d00;
 }
 
 #paint-title {
-    background-color: skyblue;
+    background-color: #ffa500;
 }
 
 #main-picture {
@@ -115,7 +121,7 @@ footer {
     font-family: Helvetica;
     color: black;
     text-align: center;
-    background-color: darkkhaki;
+    background-color: #ffebcd;
     width: 75%;
     display: block;
     margin-left: auto;
@@ -142,7 +148,7 @@ footer {
     border-radius: 5px;
     height: 25px;
     border-width: 3px;
-    border-color: cornflowerblue;
+    border-color: #14401c;
 }
 
 #customer-email {
@@ -150,20 +156,20 @@ footer {
     border-radius: 5px;
     height: 25px;
     border-width: 3px;
-    border-color: cornflowerblue;
+    border-color: #14401c;
 }
 
 #customer-message {
     width: 100%;
     border-radius: 5px;
     border-width: 3px;
-    border-color: cornflowerblue;
+    border-color: #14401c;
 }
 
 #submit-button {
     font-family: Helvetica;
-    color: antiquewhite;
-    background-color: cornflowerblue;
+    color: #ffebcd;
+    background-color: #14401c;
     height: 40px;
     width: 120px;
     font-size: 17px;
@@ -173,7 +179,7 @@ footer {
 
 #submit-button:hover {
     color: khaki;
-    background-color: #1b61e4;
+    background-color: #103116;
     font-weight: bold;
 }
 
