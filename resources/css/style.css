@@ -41,7 +41,7 @@ a {
 }
 
 a:hover {
-    color:black;
+    color:#ffebcd;
 }
 
 
@@ -115,6 +115,7 @@ footer {
     text-align: center;
     font-family: Helvetica;
     font-size: 60px;
+    color: #ffebcd;
 }
 
 .welcome-message {
@@ -133,6 +134,7 @@ footer {
     font-family: Helvetica;
     font-size: 30px;
     font-weight: bold;
+    color: #ffebcd;
 }
 
 .contact-info {
