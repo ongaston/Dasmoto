@@ -88,3 +88,16 @@ footer {
 #paint-title {
     background-color: skyblue;
 }
+
+#main-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%
+}
+
+.homepage-title {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 60px;
+}
