@@ -25,13 +25,16 @@
 
         <form action='' method='POST' class='contact-info'>
             <br>            
-            <label for='customer-name' class='label'>Name: <br><input type='text' id='customer-name'></label>
+            <label for='customer-name' class='label'>Name: <br><input type='text' id='customer-name' required></label>
             <br><br>
-            <label for='customer-email' class='label'>Email: <br><input type='email' id='customer-email'></label>
+            <label for='customer-email' class='label'>Email: <br><input type='email' id='customer-email' required></label>
             <br><br>
-            <label for='customer-message' class='label'>Message: <br><textarea rows='6' cols='20' id='customer-message'></textarea></label>
+            <label for='customer-message' class='label'>Message: <br><textarea rows='6' cols='20' id='customer-message' required></textarea></label>
             <br> <br>
+            <label for='receive-emails' class='label'><span id='rec-email-format'>Sign up to receive other promotional emails- </span><input type='checkbox' id='receive-emails' checked='true'></label>
+            <br><br>
             <input type='submit' id='submit-button'>
+            
 
         </form>
 

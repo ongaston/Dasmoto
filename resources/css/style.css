@@ -27,12 +27,13 @@ nav {
     color: antiquewhite;
     text-decoration: antiquewhite;
     overflow: hidden;
-    float: left;
+    vertical-align: middle;
 }
 
 a {
     color: antiquewhite;
     text-decoration: antiquewhite;
+    font-weight: bold;
 }
 
 a:hover {
@@ -133,29 +134,59 @@ footer {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    width: 50%
 }
 
 #customer-name {
-    width: 50%;
+    width: 100%;
+    border-radius: 5px;
+    height: 25px;
+    border-width: 3px;
+    border-color: cornflowerblue;
 }
 
 #customer-email {
-    width: 50%;
+    width: 100%;
+    border-radius: 5px;
+    height: 25px;
+    border-width: 3px;
+    border-color: cornflowerblue;
 }
 
 #customer-message {
-    width: 50%;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: cornflowerblue;
 }
 
 #submit-button {
     font-family: Helvetica;
     color: antiquewhite;
     background-color: cornflowerblue;
-    height: 50px;
-    width: 150px;
-    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    font-size: 17px;
+    font-weight: normal;
+    border-radius: 10px;
 }
 
 #submit-button:hover {
     color: khaki;
+    background-color: #1b61e4;
+    font-weight: bold;
+}
+
+#rec-email-format {
+    font-size: 25px;
+    font-weight: normal;
+    float: left;
+}
+
+#receive-emails {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
 }
