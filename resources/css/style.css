@@ -25,13 +25,21 @@ nav {
     padding: 0px 20px;
     font-family: Helvetica;
     color: antiquewhite;
-    text-decoration: antiquewhite
+    text-decoration: antiquewhite;
+    overflow: hidden;
+    float: left;
 }
 
 a {
     color: antiquewhite;
     text-decoration: antiquewhite;
 }
+
+a:hover {
+    color:black;
+}
+
+
 
 footer {
     background-color: cornflowerblue;
