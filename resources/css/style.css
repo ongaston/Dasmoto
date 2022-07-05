@@ -10,18 +10,31 @@ body {
     text-align: center;
     background-image: url('../images/pattern.jpeg');
     padding-top: 50px;
+    height: 200px;
+    position: relative;
+    top: 70px;
 }
 
 #title {
     font-size: 100px;
-    vertical-align: middle;
     display: inline-block;
+    position: relative;
+    bottom: 35px;
+    z-index: 2;
+}
+
+main {
+    position: relative;
+    z-index: 3;
+    top: 50px;
+    margin-bottom: 20px;
 }
 
 nav {
     background-color: #14401c;
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 .nav-bar {
@@ -47,7 +60,7 @@ a:hover {
 footer {
     background-color: #14401c;
     padding-top: 5px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 #footer {
